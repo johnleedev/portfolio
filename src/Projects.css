@@ -1,0 +1,134 @@
+.projects_main {
+  background-color: white;
+  border-radius: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 95%;
+  margin-bottom: 25px;
+}
+.projects_box1 {
+  width: 100%;
+  height: 150px;
+}
+.projects_box1 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}  
+.projects_name {
+  padding-top: 40px;
+  height: 75px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.projects_date {
+  height: 75px;
+  
+}
+
+.projects_box2 {
+  width: 100%;
+  display: flex;
+}
+.projects_image {
+  width: 50%;
+  margin: 30px;
+  margin-top: 40px;
+}
+.projects_image_image1 {
+  width: 100%;
+}
+
+.projects_notice {
+  width: 50%;
+  margin: 10px;
+  padding: 30px;
+}
+.projects_notice_text {
+  width: 100%;
+  font-size: 18px;
+  line-height: 25px;
+}
+.text_red {
+  color: rgb(246, 60, 60);
+}
+.projects_notice_button {
+
+}
+.projects_notice_orientalbar{
+  width: 100%;
+  height: 1px;
+  margin: 10px 0;
+  background-color: rgb(186, 186, 186);
+}
+.projects_notice_links {
+  width: 100%;
+  height: 35%;
+  font-size: 17px;
+}
+.projects_notice_link {
+  left: 0;
+  right: 0;
+  margin: 1px auto;
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+}
+.projects_notice_link_name {
+  width: 170px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.projects_notice_link_link {
+  width: 80%;
+  height: 100%;
+  line-height: 20px;
+}
+.projects_notice_link_link a {
+  color: #1c78bf;
+  cursor: pointer;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+
+@media screen and (max-width : 1000px) { 
+  .projects_box2 {
+    display: block;
+  }
+  .projects_image {
+    width: 95%;
+    left: 0;    
+    right: 0;
+    margin: auto;
+  }
+  .projects_notice {
+    width: 100%;
+  }    
+}
+
+@media screen and (max-width : 600px) { 
+  .projects_name {
+    font-size: 25px;
+  }
+  .projects_image {
+    width: 100%;
+    margin: 0px;
+  }
+  .projects_notice {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .projects_notice_links {
+    padding-bottom: 20px;
+  }
+  .projects_notice_link {
+    margin-bottom: 35px;
+    display: block;
+  }
+}
