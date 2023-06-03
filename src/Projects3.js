@@ -26,7 +26,7 @@ function Projects3(props) {
                   <span class="material-symbols-outlined">done</span>주요기능
                 </div>
                 <div className='projects_notice_link_link'>
-                  출결석 관리, 출석기록하기, 명단 추가/삭제, 소그룹 추가/삭제, 출결통계 확인
+                  About me, Skills, Project 등
                 </div>
               </div>
               <div className='projects_notice_link'>
