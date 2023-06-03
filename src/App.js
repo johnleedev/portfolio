@@ -10,6 +10,7 @@ import Skills from "./Skills.js";
 import Projects1 from "./Projects1";
 import Projects2 from "./Projects2";
 import Projects3 from "./Projects3";
+import Projects4 from "./Projects4";
 import Footer from "./Footer";
 
 
@@ -134,6 +135,7 @@ function App() {
               <div className="box2_bar"></div>  
             </div>
           </div>
+          <Projects4></Projects4>
           <Projects1></Projects1>
           <Projects2></Projects2>
           <Projects3></Projects3>

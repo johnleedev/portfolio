@@ -8,7 +8,7 @@ function Projects1(props) {
 
         <div className='projects_box1'>
           <div className='projects_name'>출석 관리 사이트</div>
-          <div className='projects_date'>제작기간 : 6개월 / 하루2~3시간 (개인 프로젝트)</div>
+          <div className='projects_date'>제작기간 : 3개월 (개인 프로젝트)</div>
         </div>
         <div className='projects_box2'>
           <div className='projects_image'>

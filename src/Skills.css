@@ -55,11 +55,11 @@
   background-size: cover;
 }
 .contentbox1 {
-  height: 730px;
+  height: 840px;
 }
 .image1 {
   width: 80%;
-  height: 600px;
+  height: 720px;
   background-image: url("../public/img/frontend.png")
 }
 .contentbox2 {
