@@ -16,7 +16,7 @@ function Projects2(props) {
           </div>
           <div className='projects_notice'>
             <div className='projects_notice_text'>
-            (주)거림의 홈페이지로 사용하는 웹사이트입니다. 총16페이지이며, 반응형으로 제작했습니다.
+            중형 부동산 업체 '(주)거림'의 홈페이지로 사용하는 웹사이트입니다. 총16페이지이며, 반응형으로 제작했습니다.
             <br></br><br></br>고객에게 보여지는 웹사이트인 만큼 사용자의 유입과 경험을 위해 UI & UX 구상에 적지 않은 공을 들여 만든 프로젝트입니다.
             </div>
             <div className='projects_notice_orientalbar'></div>

@@ -12,13 +12,13 @@ function Projects1(props) {
         </div>
         <div className='projects_box2'>
           <div className='projects_image'>
-            <img src="img/weeklyreport.png" className='projects_image_image1'></img>
+            <img src="img/report.png" className='projects_image_image1'></img>
           </div>
           <div className='projects_notice'>
             <div className='projects_notice_text'>
-            500여명 학생들의 출결석을 간편하게 관리할 수 있도록 만든 웹사이트입니다. 저의 지인이 운영하는 학원의 학생들의 출결석을 온라인으로 관리하기 위해 만들었고, <span className='text_red'>현재 현장에서 실제로 사용하고 있습니다.</span> ※ URL은 보안상 실제 사이트가 아니라, 임시 사이트로 올립니다.
+            500여명 학생들의 출결석을 간편하게 관리할 수 있도록 만든 웹사이트입니다. 대형교회 전체 학생들의 출결석을 온라인으로 관리하기 위해 만들었고, <span className='text_red'>현재 현장에서 실제로 사용하고 있습니다.</span> 
             <br></br><br></br>이 웹사이트로 인하여, 본래 종이 출석부에 수기로 작성하던 것을, 모바일로 좀 더 편하게 작성하고, 출석 통계를 좀 더 쉽게 파악할 수 있게 되었습니다.
-            <br></br><br></br>나름대로 서비스 다운 서비스를 만들었다는 것에 의미가 있지만, 그 과정에서 React의 개념을 한 번 더 깊게 다지고, MYSQL을 실제로 사용해볼 수 있었다는 점에서 더욱 의미가 있었습니다.
+            <br></br><br></br>나름대로 서비스 다운 서비스를 만들었다는 것에 의미가 있지만, 그 과정에서 React와 MYSQL의 개념을 한 번 더 깊게 다질 수 있었다는 점에서 더욱 의미가 있었습니다.
             <br></br><br></br>무엇보다 실제로 서비스를 사용했어야 했기에, 사용자 친화적으로 만들려고 하다보니 사용자 입장에서 많이 생각할 수 있었습니다.
             <br></br><br></br>또한 서비스를 배포하고 나서, 실제로 서비스를 사용하는 사람들에게 피드백을 받으며, 오류나 불편한 부분들을 수정하였습니다.           
             </div>
@@ -37,7 +37,7 @@ function Projects1(props) {
                   <span class="material-symbols-outlined">done</span>GitHub
                 </div>
                 <div className='projects_notice_link_link'>
-                  <a href='https://github.com/johnlovesyou/weeklyreport-portfolio' target='_blank'>github.com/johnlovesyou/weeklyreport-portfolio</a> 
+                  <a href='https://github.com/johnleedev/youthreportcomplete' target='_blank'>github.com/johnleedev/youthreportcomplete</a> 
                 </div>
               </div>
               <div className='projects_notice_link'>
@@ -45,7 +45,7 @@ function Projects1(props) {
                   <span class="material-symbols-outlined">done</span>URL
                 </div>
                 <div className='projects_notice_link_link'>
-                  <a href='http://www.pccyouth.site' target='_blank'>pccyouth.site</a> 
+                  <a href='http://www.pccyouthreport.com/main' target='_blank'>http://www.pccyouthreport.com/main</a> 
                 </div>
               </div>
               <div className='projects_notice_link'>

@@ -34,7 +34,7 @@ function Projects3(props) {
                   <span class="material-symbols-outlined">done</span>GitHub
                 </div>
                 <div className='projects_notice_link_link'>
-                  <a href='https://github.com/johnlovesyou/portfolio' target='_blank'>github.com/johnlovesyou/portfolio</a> 
+                  <a href='https://github.com/johnleedev/portfolio' target='_blank'>github.com/johnleedev/portfolio</a> 
                 </div>
               </div>
               <div className='projects_notice_link'>
