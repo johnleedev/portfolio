@@ -1,0 +1,129 @@
+/* header */
+.App {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* notice_name */
+.notice_name {
+  left: 0;
+  right: 0;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+.notice_name .box1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+.notice_name .box1 span {
+  font-size: 70px;
+}
+.notice_name .box2 {
+  
+}
+.notice_name .box2_text {
+  font-weight: 900;
+  font-size: 50px;
+}
+.notice_name .box2_bar {
+  margin-top: 10px;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: rgb(50, 50, 50);
+}
+
+/* Aboutme */
+.Aboutme {
+  height: 450px;
+}
+
+/* skills */
+.skills {
+  height: 1100px;
+  background-color: rgb(156, 152, 152);
+  background-size: cover;
+  padding-top: 1px;
+}
+
+/* projects */
+.project {
+  padding: 1px;
+  background-color: rgb(229, 229, 229);
+}
+
+@media screen and (min-width : 1000px){
+  .hamburger_menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width : 1000px) { 
+  .header {
+    height: 700px;
+  }
+  .whitemenu {
+    z-index: 1;
+    display: block;
+  }
+  .hamburger_button {
+    z-index: 2;
+    display: block;
+  }
+  .menu .menulist {
+    display: none;
+  }
+  .Aboutme {
+    height: 550px;
+  }
+  .skills {
+    height: 1600px;
+  }
+  .notice_name .box1 span {
+    font-size: 60px;
+  }
+  .notice_name .box2_text {
+    font-size: 40px;
+  }
+ 
+}
+
+
+
+@media screen and (max-width : 650px) { 
+  .inner {
+    width: 80%;
+  }    
+  .header {
+    height: 700px;
+  }
+  .Aboutme {
+    height: 900px;
+  }
+  .skills {
+    height: 2400px;
+  }
+  .notice_name {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .notice_name .box1 {
+
+  }
+  .notice_name .box1 span {
+    font-size: 50px;
+    text-align: left;
+  }
+  .notice_name .box2_text {
+    font-size: 35px;
+  }
+  
+}
+
