@@ -16,9 +16,9 @@ function Projects1(props) {
           </div>
           <div className='projects_notice'>
             <div className='projects_notice_text'>
-            소속된 회사에서, 제작한 어플입니다. 부동산 관련 분양 아파트 관련 정보 소개 서비스 어플이며, 개발은 100% 본인이 제작했습니다. 
+            소속된 회사에서, 제작한 어플입니다. 부동산 관련 분양 아파트 관련 정보 소개 서비스 어플이며, 개발은 100% 본인이 제작했습니다. 아직 정시 출시 전입니다.
             <br></br><br></br>리액트 네이티브로 제작했으며, 벡엔드는 Nodejs, MySql을 사용했습니다.
-            <br></br><br></br>첫 어플 제작이었기 때문에, 시행착오도 많았지만, 현재는 실제로 서비스를 할 정도로 제작되었기에, 많은 것들을 배울 수 있는 기회가 되었습니다.
+            <br></br><br></br>기획과 디자인이 계속 변경되어 오면서 시행착오도 많았지만, 그 과정을 통해 많은 것들을 배울 수 있는 기회가 되었습니다.
             </div>
             <div className='projects_notice_orientalbar'></div>
             <div className='projects_notice_links'>
